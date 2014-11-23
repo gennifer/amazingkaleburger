@@ -1,0 +1,57 @@
+html,
+body {
+  height: 100%;
+}
+#container {
+      background-image: url('../images/bgstripes.png');
+      background-repeat: repeat;
+      background-position: center; 
+      width: 100%;
+      border: none;
+}
+.navbar-fixed-bottom {
+    height: 80px;
+}
+section {
+    margin: 25px auto 120px auto;
+	width: 85%;
+	background-color: #ffffff;
+	padding-bottom: 100px;
+	border-radius: 15px;
+	padding: 10px;
+	border: solid #000000 3px;
+}
+.img-center {
+    /*width:100%;
+    height:100%;*/
+    z-index:-1;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+.navbar-default {
+	background-color: #FFFFFF;
+	border-top: solid #000000 3px;
+	.navbar-nav > li > a {
+	background-color: #ffffff;
+	> img {
+	height: 20px;
+	position: relative;
+	background-color: transparent;
+	}
+	&:hover {
+	background-color: #e7e7e7;
+	}
+}
+.navbar-image{
+	position: fixed;
+	bottom: 0px;
+	height: 200px;
+}
+
+#wrap > .container {
+  padding: 100px 15px 0;
+}
+.container .credit {
+  margin: 20px 0;
+}

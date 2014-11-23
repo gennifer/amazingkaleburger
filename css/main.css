@@ -1,0 +1,74 @@
+body {
+    background: #fafafa;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#container {
+    width: 100%;
+    position: relative;
+}
+
+.social {
+    height: 70px;
+}
+
+.stripes, #logo {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.stripes {
+    background: url('../images/bgstripes.png') repeat-x;
+    height: 175px;
+    margin: 70px 0 0 0;
+}
+
+#logo {
+    text-align: center;
+    margin: 0 auto;
+    z-index: 10;
+}
+
+.nav {
+    padding-top: 300px; /*changed from 350*/
+    text-align: center;
+    font-size: 18px;
+}
+
+nav a {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: #7d7d7d;
+}
+
+.nav, .content, .footer {
+    display: table;
+    margin: 0 auto;
+    width: 920px;
+}
+
+.kale-burger-logo {
+    width: 350px
+}
+
+#ingredients {
+    text-align: left;
+}
+
+#ingredients h2 {
+    font-size: 14px;
+}
+
+#ingredients p {
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+p {
+    line-height: 150%;
+}
