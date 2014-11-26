@@ -24,10 +24,8 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <div id="wantedonscroll"></div>
-        <div id="imageToAppear">
-        <a href="#"><img class="navbar-image" src="images/KB_header.png"></a></div>
-      </div>
+        
+        <a href="#"><img class="navbar-image btmLogo" src="images/KB_header.png"></a></div>
       
       <div class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
@@ -74,6 +72,12 @@
 
       </div>
 <script src="http://code.jquery.com/jquery.js"></script>
+<script>
+$(".btmLogo").hide();
+$(window).scroll(function() {
+  $(".btmLogo").fadeIn("slow");
+});
+</script>
 
 <script src="js/bootstrap.min.js"></script>
     </body>
